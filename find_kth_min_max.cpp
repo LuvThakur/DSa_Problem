@@ -12,7 +12,7 @@ void kth_minfun(int p[], int k, int size)
 void kth_maxfun(int p[], int k, int size)
 {
     if (k < size)
-        cout << k << "-th maximum in array " << p[(size - 1) - (k - 1)]<<;
+        cout << k << "-th maximum in array " << p[(size - 1) - (k - 1)]<<"\n";
     else
         cout << "\nmax Not in range\n";
 }
